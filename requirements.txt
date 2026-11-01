@@ -7,3 +7,4 @@ torch
 PyJWT
 pydantic[email]
 pwdlib[argon2]
+opencv-python-headless
