@@ -2,8 +2,7 @@ import { jsPDF } from "jspdf";
 import { useState, useEffect } from "react";
 import "./App.css";
 
-const API = "http://127.0.0.1:8001";
-
+const API = import.meta.env.VITE_API_URL || "http://127.0.0.1:8001";
 function App() {
   const [reference, setReference] = useState(null);
   const [test, setTest] = useState(null);
