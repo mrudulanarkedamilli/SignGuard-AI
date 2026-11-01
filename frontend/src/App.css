@@ -603,3 +603,9 @@ footer {
 .performance-card h2 {
     color: #173b8c !important;
 }
+/* Final fix for dashboard percentage text */
+.performance-grid .performance-card h2 {
+    color: #173b8c !important;
+    -webkit-text-fill-color: #173b8c !important;
+    opacity: 1 !important;
+}
