@@ -1,0 +1,22 @@
+{
+    "threshold": -0.5469183325767517,
+    "accuracy": 0.7679012345679013,
+    "precision": 0.6289308176100629,
+    "recall": 0.7407407407407407,
+    "f1_score": 0.6802721088435374,
+    "roc_auc": 0.8404938271604938,
+    "false_acceptance_rate": 0.21851851851851853,
+    "false_rejection_rate": 0.25925925925925924,
+    "confusion_matrix": [
+        [
+            211,
+            59
+        ],
+        [
+            35,
+            100
+        ]
+    ],
+    "test_pairs": 405,
+    "test_writers": 9
+}

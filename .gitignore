@@ -1,0 +1,31 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# React
+node_modules/
+dist/
+
+# Secrets and databases
+.env
+.env.*
+!.env.example
+*.db
+*.sqlite
+*.sqlite3
+
+# Datasets
+dataset/raw/
+dataset/processed/
+
+# Trained models
+models/*.pth
+models/*.pt
+models/*.h5
+
+# Local files
+.vscode/
+*.log
+dataset/archive/
