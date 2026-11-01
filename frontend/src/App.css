@@ -597,3 +597,9 @@ footer {
   border-radius: 9px;
   cursor: pointer;
 }
+/* Fix dashboard percentage visibility */
+.performance-card,
+.performance-card span,
+.performance-card h2 {
+    color: #173b8c !important;
+}
